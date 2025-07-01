@@ -55,6 +55,14 @@ ul a {
     text-decoration:none;
 }
 
+ul.menu a:focus-within,
+ul.menu a:focus svg path,
+ul.menu a:hover,
+ul.menu a:hover svg path{
+    color: var(--accent);
+    fill: var(--accent);
+}
+
 /* Universal Styles */
 body {
     color: var(--slate-800);
