@@ -9,11 +9,53 @@
 }
 
 /* Utility Classes */
+.sr-only {
+    display:none;
+}
 
+.number {
+    width: 1.5rem;
+    height: 1.5rem;
+    font-size: 1rem;
+    color: var(--slate-200);
+    background-color: var(--rose-700);
+    border-radius: 50%;
+    text-align: center;
+    /**/
+    position: absolute;
+    top: 0.5rem;
+    left: 2rem;
+}
 
+ul svg {
+    width: 2rem;
+    margin-right: 0.5rem;
+}
+
+nav {
+    margin:0 auto;
+    max-width:72rem;
+}
+
+ul {
+    margin: 2rem 0;
+    padding:0;
+}
+
+ul li {
+    position: relative;
+}
+
+ul a {
+    color: var(--link);
+    display:flex;
+    justify-content:left;
+    text-align:center;
+    padding: 1rem;
+    text-decoration:none;
+}
 
 /* Universal Styles */
-
 body {
     color: var(--slate-800);
     font-family: "Open Sans", sans-serif;
